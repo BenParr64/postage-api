@@ -1,0 +1,25 @@
+{
+  "rules": [
+    {
+      "weight_range": [0, 0.5],
+      "price_range": [0, 50],
+      "postcode_region": "UKM",
+      "service": "Standard",
+      "cost": 10
+    },
+    {
+      "weight_range": [0.5, 10],
+      "price_range": [50, 200],
+      "postcode_region": "UKM",
+      "service": "Express",
+      "cost": 20
+    },
+    {
+      "weight_range": [10, 100],
+      "price_range": [200, 500],
+      "postcode_region": "UKM",
+      "service": "Overnight",
+      "cost": 30
+    }
+  ]
+}
