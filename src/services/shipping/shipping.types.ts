@@ -3,13 +3,18 @@ export interface ShippingRule {
   price_range: [number, number];
   postcode_region: string;
   service: string;
+  description: string;
   cost: number;
 }
 
-export interface ShippingRuleJson {
-  rules: ShippingRule[];
+export interface ShippingZone {
+  name: string;
+  region_id: string;
+  postcodes: string[];
 }
 
-export interface ShippingRules {
-  [index: string]: ShippingRule[];
+export interface ShippingOption {
+  service: string;
+  description: string;
+  cost: number;
 }

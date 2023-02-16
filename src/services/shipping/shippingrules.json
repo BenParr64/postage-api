@@ -1,25 +1,34 @@
-{
-  "rules": [
-    {
-      "weight_range": [0, 0.5],
-      "price_range": [0, 50],
-      "postcode_region": "UKM",
-      "service": "Standard",
-      "cost": 10
-    },
-    {
-      "weight_range": [0.5, 10],
-      "price_range": [50, 200],
-      "postcode_region": "UKM",
-      "service": "Express",
-      "cost": 20
-    },
-    {
-      "weight_range": [10, 100],
-      "price_range": [200, 500],
-      "postcode_region": "UKM",
-      "service": "Overnight",
-      "cost": 30
-    }
-  ]
-}
+[
+  {
+    "weight_range": [0, 99999],
+    "price_range": [75, 999999999],
+    "postcode_region": "UKM",
+    "service": "Free Shipping over £75",
+    "description": "Free Shipping over £75",
+    "cost": 0
+  },
+  {
+    "weight_range": [0, 99999],
+    "price_range": [0, 75],
+    "postcode_region": "UKM",
+    "service": "Parcel Next Day",
+    "description": "DHL",
+    "cost": 5.95
+  },
+  {
+    "weight_range": [0, 0.4],
+    "price_range": [0, 999999999],
+    "postcode_region": "UKM",
+    "service": "Large Letter",
+    "description": "Large Letter - Order must be less than 38cmx30cmx2cm",
+    "cost": 2.2
+  },
+  {
+    "weight_range": [0.4, 2],
+    "price_range": [0, 75],
+    "postcode_region": "UKM",
+    "service": "Royal Mail Small Parcel",
+    "description": "Royal Mail Small Parcel - Order must be less than 45cmx35cmx16cm",
+    "cost": 3.6
+  }
+]
