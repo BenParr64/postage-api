@@ -1,4 +1,3 @@
-import axios from "axios";
 import express, { Request, Response } from "express";
 import { Order } from "../models/shipping.types";
 import { getShippingRule } from "../services/shipping/shipping";
